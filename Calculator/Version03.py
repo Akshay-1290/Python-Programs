@@ -10,5 +10,5 @@ if D<0 :
     print("No real solution")
 else: 
    
- print("Roots are ",{r1})
+ print("Roots are ",r1)
  print(r2)
