@@ -6,7 +6,6 @@ while d>4 or d<1:
 if d==1:
    print("You have choosed Easy difficulty")
    r = random.randint(1,100)
-   print(r)
    g = int(input("Guess the number between 1-100 :"))
    while g<1 or g>100:
      print("Choosed integer must lie between 1 and 100 :")
