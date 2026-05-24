@@ -73,16 +73,20 @@ def main():
     if not bet.isdigit():
      print("Please enter a valid number")
      time.sleep(1)
+     continue
     elif int(bet) > balance:
      print("Not enough balance")
      time.sleep(1)
+     continue
     elif int(bet) <= 0:
      print("Invalid bet")
      time.sleep(1)
+     continue
     else:
      bet = int(bet)
      print("Bet accepted")
      time.sleep(1)
+     
     play=input("Enter p to play or q to quit :")
     if play.lower()=="p":
      dc=draw_cards(2)
